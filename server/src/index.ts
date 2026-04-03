@@ -9,6 +9,7 @@ import invoiceRoutes from './routes/invoices.js';
 import roomRoutes from './routes/rooms.js';
 import tenantRoutes from './routes/tenants.js';
 import dashboardRoutes from './routes/dashboard.js';
+import transcriptionRoutes from './routes/transcriptions.js';
 import { getDb } from './db/database.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -30,6 +31,7 @@ app.use('/api/invoices', invoiceRoutes);
 app.use('/api/rooms', roomRoutes);
 app.use('/api/tenants', tenantRoutes);
 app.use('/api/dashboard', dashboardRoutes);
+app.use('/api/transcriptions', transcriptionRoutes);
 
 // Serve client build in production
 const clientDist = path.join(__dirname, '../../client/dist');
@@ -44,5 +46,8 @@ app.listen(PORT, () => {
   console.log(`HMO Invoice Tracker server running on http://localhost:${PORT}`);
   if (!process.env.ANTHROPIC_API_KEY) {
     console.warn('⚠️  ANTHROPIC_API_KEY not set — AI parsing will fail');
+  }
+  if (!process.env.OPENAI_API_KEY) {
+    console.warn('⚠️  OPENAI_API_KEY not set — video transcription will fail');
   }
 });

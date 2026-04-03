@@ -5,6 +5,7 @@ import Upload from './pages/Upload';
 import Review from './pages/Review';
 import Timeline from './pages/Timeline';
 import Setup from './pages/Setup';
+import Transcribe from './pages/Transcribe';
 import { getInvoices } from './api/client';
 import type { Invoice } from './types';
 
@@ -13,6 +14,7 @@ const NAV_LINKS = [
   { to: '/upload', label: 'Upload' },
   { to: '/timeline', label: 'Timeline' },
   { to: '/setup', label: 'Setup' },
+  { to: '/transcribe', label: 'Transcribe' },
 ];
 
 export default function App() {
@@ -77,6 +79,7 @@ export default function App() {
           <Route path="/review/:invoiceId" element={<Review />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/setup" element={<Setup />} />
+          <Route path="/transcribe" element={<Transcribe />} />
         </Routes>
       </main>
     </div>

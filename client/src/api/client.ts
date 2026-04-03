@@ -41,6 +41,19 @@ export const updateTransaction = (txId: string, data: {
   reviewed?: number;
 }) => api.patch(`/invoices/transactions/${txId}`, data).then(r => r.data);
 
+// Transcriptions
+export const getTranscriptions = () => api.get('/transcriptions').then(r => r.data);
+export const getTranscription = (id: string) => api.get(`/transcriptions/${id}`).then(r => r.data);
+export const deleteTranscription = (id: string) => api.delete(`/transcriptions/${id}`).then(r => r.data);
+
+export const uploadVideo = (file: File) => {
+  const form = new FormData();
+  form.append('video', file);
+  return api.post('/transcriptions/upload', form, {
+    headers: { 'Content-Type': 'multipart/form-data' },
+  }).then(r => r.data);
+};
+
 // Dashboard
 export const getDashboardSummary = () => api.get('/dashboard/summary').then(r => r.data);
 export const getDashboardFinancials = () => api.get('/dashboard/financials').then(r => r.data);

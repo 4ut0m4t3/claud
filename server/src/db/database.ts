@@ -83,6 +83,17 @@ function migrate(db: Database.Database) {
       status TEXT NOT NULL DEFAULT 'pending' CHECK(status IN ('paid', 'unpaid', 'partial', 'pending')),
       notes TEXT
     );
+
+    CREATE TABLE IF NOT EXISTS transcriptions (
+      id TEXT PRIMARY KEY,
+      filename TEXT NOT NULL,
+      original_name TEXT NOT NULL,
+      duration_seconds REAL,
+      transcript TEXT,
+      status TEXT NOT NULL DEFAULT 'processing' CHECK(status IN ('processing', 'complete', 'error')),
+      error_message TEXT,
+      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+    );
   `);
 
   // Seed default categories

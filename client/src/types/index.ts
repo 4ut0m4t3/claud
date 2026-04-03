@@ -94,6 +94,17 @@ export interface TimelineData {
   months: { year: number; month: number }[];
 }
 
+export interface Transcription {
+  id: string;
+  filename: string;
+  original_name: string;
+  duration_seconds?: number;
+  transcript?: string;
+  status: 'processing' | 'complete' | 'error';
+  error_message?: string;
+  created_at: string;
+}
+
 export interface TenantStatusSuggestion {
   tenant_name: string;
   room_name: string;
