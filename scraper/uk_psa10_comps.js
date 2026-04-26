@@ -24,6 +24,7 @@ const CARDS = [
     setCode: 'SCR',
     rarity: 'Illustration Rare',
     query: 'raboot 147 psa 10',
+    nameKeywords: ['raboot'],
     excludeNumbers: [],
   },
   {
@@ -33,6 +34,7 @@ const CARDS = [
     setCode: 'SCR',
     rarity: 'Illustration Rare',
     query: 'lileep 145 psa 10',
+    nameKeywords: ['lileep'],
     excludeNumbers: [],
   },
   {
@@ -42,6 +44,7 @@ const CARDS = [
     setCode: 'TWM',
     rarity: 'Special Illustration Rare',
     query: "lana's aid 219 psa 10",
+    nameKeywords: ['lana'],
     excludeNumbers: ['207'],
   },
   {
@@ -51,6 +54,7 @@ const CARDS = [
     setCode: 'TEF',
     rarity: 'Illustration Rare',
     query: 'shiftry 163 psa 10',
+    nameKeywords: ['shiftry'],
     excludeNumbers: [],
   },
   {
@@ -60,6 +64,7 @@ const CARDS = [
     setCode: 'TEF',
     rarity: 'Illustration Rare',
     query: 'chatot 181 psa 10',
+    nameKeywords: ['chatot'],
     excludeNumbers: [],
   },
   {
@@ -69,6 +74,7 @@ const CARDS = [
     setCode: 'TEF',
     rarity: 'Double Rare',
     query: 'gengar ex 104 psa 10',
+    nameKeywords: ['gengar'],
     excludeNumbers: ['193'],
   },
 ];
@@ -161,43 +167,91 @@ function parsePriceGbp(raw) {
 // ---------------------------------------------------------------------------
 // Scrape one search results page
 // ---------------------------------------------------------------------------
-async function scrapeSearchPage(page, url) {
+async function scrapeSearchPage(context, url) {
   console.log(`  GET ${url}`);
-  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  const page = await context.newPage();
+  page.setDefaultTimeout(45000);
+  // Block heavyweight resources to keep the renderer light and stable.
+  await page.route('**/*', (route) => {
+    const t = route.request().resourceType();
+    if (t === 'image' || t === 'media' || t === 'font' || t === 'stylesheet') {
+      return route.abort();
+    }
+    const u = route.request().url();
+    if (
+      u.includes('googlesyndication') ||
+      u.includes('doubleclick') ||
+      u.includes('googletagmanager') ||
+      u.includes('google-analytics') ||
+      u.includes('rover.ebay') ||
+      u.includes('pulsar.ebay')
+    ) {
+      return route.abort();
+    }
+    return route.continue();
+  });
 
   try {
-    await page.waitForSelector('ul.srp-results, .srp-results, li.s-item', { timeout: 15000 });
-  } catch {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    await page.waitForSelector('li.s-card, li.s-item', { timeout: 20000 });
+  } catch (err) {
+    console.log(`    (no cards rendered: ${err.message.split('\n')[0]})`);
+    await page.close().catch(() => {});
     return [];
   }
 
-  return page.$$eval('li.s-item', (nodes) => {
+  const items = await page.$$eval('li.s-card, li.s-item', (nodes) => {
+    function cleanTitle(raw) {
+      return raw.replace(/\n?Opens in a new window or tab.*$/is, '').trim();
+    }
     const items = [];
     for (const li of nodes) {
-      const titleEl = li.querySelector('.s-item__title');
+      // New layout (.s-card)
+      let titleEl = li.querySelector('.s-card__title');
+      let priceEl = li.querySelector('.s-card__price');
+      let dateEl = li.querySelector('.s-card__caption');
+      let attrEls = li.querySelectorAll('.s-card__attribute-row');
+      // Legacy layout (.s-item) — fallback
+      if (!titleEl) titleEl = li.querySelector('.s-item__title');
+      if (!priceEl) priceEl = li.querySelector('.s-item__price');
+      if (!dateEl) dateEl = li.querySelector('.s-item__caption--signal, .s-item__title--tag, .s-item__ended-date, .s-item__caption');
+
       if (!titleEl) continue;
-      const title = titleEl.innerText.trim();
-      if (/^shop on ebay$/i.test(title)) continue;
+      const title = cleanTitle(titleEl.innerText);
+      if (!title || /^shop on ebay$/i.test(title)) continue;
 
-      const linkEl = li.querySelector('a.s-item__link');
-      const url = linkEl ? linkEl.href : null;
+      const linkEl = li.querySelector('a[href*="/itm/"]');
+      let url = linkEl ? linkEl.href : null;
+      if (url) url = url.split('?')[0];
 
-      const priceEl = li.querySelector('.s-item__price');
       const priceText = priceEl ? priceEl.innerText.trim() : null;
-
-      const dateEl = li.querySelector('.s-item__caption--signal, .s-item__title--tag, .s-item__ended-date, .s-item__caption');
       const dateText = dateEl ? dateEl.innerText.trim() : null;
 
-      const sellerEl = li.querySelector('.s-item__seller-info-text, .s-item__seller-info');
-      const seller = sellerEl ? sellerEl.innerText.trim() : null;
+      // Country and seller from attribute rows (new layout)
+      let country = null;
+      let seller = null;
+      for (const row of attrEls) {
+        const txt = row.innerText.trim();
+        const cm = txt.match(/^from\s+(.+)$/i);
+        if (cm) country = cm[1].trim();
+        const sm = txt.match(/^([\w.\-]+)\s+\d+(?:\.\d+)?%\s+positive/i);
+        if (sm) seller = sm[1];
+      }
+      // Legacy seller fallback
+      if (!seller) {
+        const sellerEl = li.querySelector('.s-item__seller-info-text, .s-item__seller-info');
+        if (sellerEl) seller = sellerEl.innerText.trim();
+      }
 
-      const imgEl = li.querySelector('.s-item__image-img, img.s-item__image-img, img');
+      const imgEl = li.querySelector('.s-card__image img, .s-item__image-img, img.s-item__image-img, img');
       const imageUrl = imgEl ? (imgEl.getAttribute('src') || imgEl.getAttribute('data-src')) : null;
 
-      items.push({ title, url, priceText, dateText, seller, imageUrl });
+      items.push({ title, url, priceText, dateText, seller, imageUrl, country });
     }
     return items;
   });
+  await page.close().catch(() => {});
+  return items;
 }
 
 // ---------------------------------------------------------------------------
@@ -226,23 +280,24 @@ function round2(n) {
 // ---------------------------------------------------------------------------
 // Per-card scrape + filter
 // ---------------------------------------------------------------------------
-async function scrapeCard(page, card) {
+async function scrapeCard(context, card) {
   console.log(`\nScraping ${card.name} (#${card.number})...`);
+
+  // Try UK-preferred first; if we don't get enough UK comps, broaden to all.
   const ukUrl = buildEbayUrl(card.query, { ukOnly: true });
+  let raw = await scrapeSearchPage(context, ukUrl);
+  let filtered = applyFilters(raw, card).map(tagScope);
 
-  let raw = await scrapeSearchPage(page, ukUrl);
   let usedInternational = false;
-
-  let filtered = applyFilters(raw, card).map((it) => ({ ...it, scope: 'UK' }));
-
-  if (filtered.length < 3) {
-    console.log(`  Only ${filtered.length} UK comps — retrying without UK filter`);
+  const ukCount = filtered.filter((it) => it.scope === 'UK').length;
+  if (ukCount < 3) {
+    console.log(`  Only ${ukCount} UK comps after UK-pref search — broadening`);
     await delay(randomBetween(3000, 5000));
     const intUrl = buildEbayUrl(card.query, { ukOnly: false });
-    const intRaw = await scrapeSearchPage(page, intUrl);
+    const intRaw = await scrapeSearchPage(context, intUrl);
     const intFiltered = applyFilters(intRaw, card)
-      .filter((it) => !filtered.some((u) => u.url && u.url === it.url))
-      .map((it) => ({ ...it, scope: 'International' }));
+      .map(tagScope)
+      .filter((it) => !filtered.some((u) => u.url && u.url === it.url));
     filtered = [...filtered, ...intFiltered];
     usedInternational = true;
   }
@@ -254,6 +309,9 @@ async function scrapeCard(page, card) {
 
   const psa10 = filtered.filter((it) => it.grade === 'PSA 10');
   const ace10 = filtered.filter((it) => it.grade === 'ACE 10');
+  const psa10Uk = psa10.filter((it) => it.scope === 'UK');
+  const ace10Uk = ace10.filter((it) => it.scope === 'UK');
+  const prices = (arr) => arr.map((it) => it.price_gbp).filter((p) => p != null);
 
   return {
     card_name: card.name,
@@ -264,21 +322,26 @@ async function scrapeCard(page, card) {
     query: card.query,
     sold_listings: filtered,
     stats: {
-      psa10: computeStats(psa10.map((it) => it.price_gbp).filter((p) => p != null)),
-      ace10: computeStats(ace10.map((it) => it.price_gbp).filter((p) => p != null)),
-      combined: computeStats(filtered.map((it) => it.price_gbp).filter((p) => p != null)),
+      psa10: computeStats(prices(psa10)),
+      psa10_uk: computeStats(prices(psa10Uk)),
+      ace10: computeStats(prices(ace10)),
+      ace10_uk: computeStats(prices(ace10Uk)),
+      combined: computeStats(prices(filtered)),
     },
   };
 }
 
 function applyFilters(raw, card) {
   const out = [];
+  const nameKeywords = (card.nameKeywords || [card.name.split(/\s+/)[0]]).map((k) => k.toLowerCase());
   for (const r of raw) {
     const grade = detectGrade(r.title);
     if (!grade) continue;
     if (hasWrongGrade(r.title, grade)) continue;
     if (!titleHasNumber(r.title, card.number)) continue;
     if (card.excludeNumbers.some((bad) => titleHasNumber(r.title, bad))) continue;
+    const lowerTitle = r.title.toLowerCase();
+    if (!nameKeywords.some((k) => lowerTitle.includes(k))) continue;
 
     const price = parsePriceGbp(r.priceText);
     if (price == null) continue;
@@ -290,10 +353,22 @@ function applyFilters(raw, card) {
       url: r.url,
       seller: r.seller,
       image_url: r.imageUrl,
+      country: r.country || null,
       grade,
     });
   }
   return out;
+}
+
+function tagScope(it) {
+  // On eBay UK, UK-based listings omit the "from X" attribute row — only
+  // non-UK shippers get one. So absent country == UK.
+  const c = (it.country || '').toLowerCase().trim();
+  if (!c) return { ...it, scope: 'UK' };
+  if (c.includes('united kingdom') || c === 'uk' || c.includes('great britain')) {
+    return { ...it, scope: 'UK' };
+  }
+  return { ...it, scope: 'International' };
 }
 
 function randomBetween(min, max) {
@@ -339,12 +414,14 @@ function buildMarkdown(result) {
 
     lines.push('**Stats**');
     lines.push('');
-    lines.push('| Grade | Count | Min | Median | Mean | Max |');
+    lines.push('| Slice | Count | Min | Median | Mean | Max |');
     lines.push('|-------|-------|-----|--------|------|-----|');
     for (const [label, key] of [
-      ['PSA 10', 'psa10'],
-      ['ACE 10', 'ace10'],
-      ['Combined', 'combined'],
+      ['PSA 10 (UK only)', 'psa10_uk'],
+      ['PSA 10 (all)', 'psa10'],
+      ['ACE 10 (UK only)', 'ace10_uk'],
+      ['ACE 10 (all)', 'ace10'],
+      ['Combined (all)', 'combined'],
     ]) {
       const s = c.stats[key];
       if (!s.count) {
@@ -358,24 +435,36 @@ function buildMarkdown(result) {
     lines.push('');
   }
 
-  lines.push('## Lot summary');
+  lines.push('## Lot summary (UK PSA 10 / UK ACE 10 medians)');
   lines.push('');
-  lines.push('| Card | PSA 10 median | ACE 10 median | PSA 10 count | ACE 10 count |');
-  lines.push('|------|---------------|---------------|--------------|--------------|');
-  let psaSum = 0;
-  let aceSum = 0;
+  lines.push('| Card | PSA10 UK median | PSA10 UK count | ACE10 UK median | ACE10 UK count | PSA10 all median (n) | ACE10 all median (n) |');
+  lines.push('|------|-----------------|----------------|-----------------|----------------|----------------------|----------------------|');
+  let psaUkSum = 0;
+  let aceUkSum = 0;
+  let psaAllSum = 0;
+  let aceAllSum = 0;
   for (const c of result.cards) {
-    const p = c.stats.psa10.median;
-    const a = c.stats.ace10.median;
-    if (p != null) psaSum += p;
-    if (a != null) aceSum += a;
+    const pu = c.stats.psa10_uk.median;
+    const au = c.stats.ace10_uk.median;
+    const pa = c.stats.psa10.median;
+    const aa = c.stats.ace10.median;
+    if (pu != null) psaUkSum += pu;
+    if (au != null) aceUkSum += au;
+    if (pa != null) psaAllSum += pa;
+    if (aa != null) aceAllSum += aa;
     lines.push(
-      `| ${c.card_name} #${c.card_number} | ${p != null ? '£' + p.toFixed(2) : '-'} | ${a != null ? '£' + a.toFixed(2) : '-'} | ${c.stats.psa10.count} | ${c.stats.ace10.count} |`
+      `| ${c.card_name} #${c.card_number} | ${fmtMed(pu)} | ${c.stats.psa10_uk.count} | ${fmtMed(au)} | ${c.stats.ace10_uk.count} | ${fmtMed(pa)} (${c.stats.psa10.count}) | ${fmtMed(aa)} (${c.stats.ace10.count}) |`
     );
   }
-  lines.push(`| **Sum of medians** | **£${psaSum.toFixed(2)}** | **£${aceSum.toFixed(2)}** | | |`);
+  lines.push(
+    `| **Sum of medians** | **£${psaUkSum.toFixed(2)}** | | **£${aceUkSum.toFixed(2)}** | | **£${psaAllSum.toFixed(2)}** | **£${aceAllSum.toFixed(2)}** |`
+  );
   lines.push('');
   return lines.join('\n');
+}
+
+function fmtMed(n) {
+  return n != null ? '£' + n.toFixed(2) : '-';
 }
 
 function escapeMd(s) {
@@ -394,13 +483,14 @@ async function main() {
     locale: 'en-GB',
     timezoneId: 'Europe/London',
     viewport: { width: 1366, height: 900 },
+    // Tolerate intercepting/MITM proxies (sandboxes/corp networks). On a normal
+    // network with a valid cert chain this is a no-op.
+    ignoreHTTPSErrors: true,
   });
-  const page = await context.newPage();
-
   const cards = [];
   for (const card of CARDS) {
     try {
-      const cardResult = await scrapeCard(page, card);
+      const cardResult = await scrapeCard(context, card);
       cards.push(cardResult);
     } catch (err) {
       console.error(`  ERROR scraping ${card.name}:`, err.message);
@@ -414,7 +504,9 @@ async function main() {
         sold_listings: [],
         stats: {
           psa10: computeStats([]),
+          psa10_uk: computeStats([]),
           ace10: computeStats([]),
+          ace10_uk: computeStats([]),
           combined: computeStats([]),
         },
         error: err.message,
@@ -437,22 +529,32 @@ async function main() {
   console.log('\n=========================================');
   console.log('Final summary');
   console.log('=========================================');
-  let psaSum = 0;
-  let aceSum = 0;
+  let psaUkSum = 0;
+  let aceUkSum = 0;
+  let psaAllSum = 0;
+  let aceAllSum = 0;
   for (const c of cards) {
-    const psa = c.stats.psa10;
-    const ace = c.stats.ace10;
+    const psaUk = c.stats.psa10_uk;
+    const aceUk = c.stats.ace10_uk;
+    const psaAll = c.stats.psa10;
+    const aceAll = c.stats.ace10;
     console.log(
       `${c.card_name.padEnd(12)} #${c.card_number}  ` +
-        `PSA10: ${String(psa.count).padStart(2)} comps, median ${psa.median != null ? '£' + psa.median.toFixed(2) : '-'}  |  ` +
-        `ACE10: ${String(ace.count).padStart(2)} comps, median ${ace.median != null ? '£' + ace.median.toFixed(2) : '-'}`
+        `UK PSA10: ${String(psaUk.count).padStart(2)} @ ${psaUk.median != null ? '£' + psaUk.median.toFixed(2) : '   - '}  |  ` +
+        `UK ACE10: ${String(aceUk.count).padStart(2)} @ ${aceUk.median != null ? '£' + aceUk.median.toFixed(2) : '   - '}  ||  ` +
+        `All PSA10: ${String(psaAll.count).padStart(2)} @ ${psaAll.median != null ? '£' + psaAll.median.toFixed(2) : '   - '}  |  ` +
+        `All ACE10: ${String(aceAll.count).padStart(2)} @ ${aceAll.median != null ? '£' + aceAll.median.toFixed(2) : '   - '}`
     );
-    if (psa.median != null) psaSum += psa.median;
-    if (ace.median != null) aceSum += ace.median;
+    if (psaUk.median != null) psaUkSum += psaUk.median;
+    if (aceUk.median != null) aceUkSum += aceUk.median;
+    if (psaAll.median != null) psaAllSum += psaAll.median;
+    if (aceAll.median != null) aceAllSum += aceAll.median;
   }
   console.log('-----------------------------------------');
-  console.log(`Sum of PSA 10 medians (estimated lot value): £${psaSum.toFixed(2)}`);
-  console.log(`Sum of ACE 10 medians (estimated lot value): £${aceSum.toFixed(2)}`);
+  console.log(`Sum of UK  PSA 10 medians (lot value, UK comps):  £${psaUkSum.toFixed(2)}`);
+  console.log(`Sum of UK  ACE 10 medians (lot value, UK comps):  £${aceUkSum.toFixed(2)}`);
+  console.log(`Sum of ALL PSA 10 medians (lot value, all comps): £${psaAllSum.toFixed(2)}`);
+  console.log(`Sum of ALL ACE 10 medians (lot value, all comps): £${aceAllSum.toFixed(2)}`);
   console.log('Wrote uk_psa10_comps.json and uk_psa10_comps.md');
 }
 

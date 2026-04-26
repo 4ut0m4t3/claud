@@ -1,0 +1,1740 @@
+{
+  "scraped_at": "2026-04-26T14:54:40.435Z",
+  "source": "ebay.co.uk sold listings",
+  "cards": [
+    {
+      "card_name": "Raboot",
+      "card_number": "147",
+      "set": "Stellar Crown",
+      "set_code": "SCR",
+      "rarity": "Illustration Rare",
+      "query": "raboot 147 psa 10",
+      "sold_listings": [
+        {
+          "title": "PSA 10 Raboot Stellar Crown 147/142 EN Illustration Rare Pokemon Card English UK",
+          "price_gbp": 46.57,
+          "sold_date": "2026-04-20",
+          "url": "https://www.ebay.co.uk/itm/396625086906",
+          "seller": "jopic-26",
+          "image_url": "https://i.ebayimg.com/images/g/mmYAAOSw5J5oKk1T/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "PSA 10 Raboot Stellar Crown 147/142 EN Illustration Rare Pokemon Card English",
+          "price_gbp": 44.6,
+          "sold_date": "2026-04-20",
+          "url": "https://www.ebay.co.uk/itm/335808056250",
+          "seller": "tapu-bob",
+          "image_url": "https://i.ebayimg.com/images/g/BRQAAeSwsgZnq0dC/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Raboot Illustration Rare 147/142 Stellar Crown SV7 English Pokemon Card PSA 10",
+          "price_gbp": 44.77,
+          "sold_date": "2026-04-19",
+          "url": "https://www.ebay.co.uk/itm/157828842094",
+          "seller": "pikachuspalace",
+          "image_url": "https://i.ebayimg.com/images/g/FVAAAeSwGgVp2-iP/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "PSA 10 Raboot 147/142 Stellar Crown IR Holo Pokemon Card - Gem Mint",
+          "price_gbp": 46.59,
+          "sold_date": "2026-03-31",
+          "url": "https://www.ebay.co.uk/itm/227257921023",
+          "seller": "jons_cardshop",
+          "image_url": "https://i.ebayimg.com/images/g/ZbMAAeSwLfpptw1Z/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Raboot Illustration Rare 147/142 Stellar Crown SV7 English Pokemon Card PSA 10",
+          "price_gbp": 31.47,
+          "sold_date": "2026-03-29",
+          "url": "https://www.ebay.co.uk/itm/397747162396",
+          "seller": "northyor42",
+          "image_url": "https://i.ebayimg.com/images/g/X~EAAeSw1sBpv~qj/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "PSA 10 Raboot 147/142 Stellar Crown English Pokémon TCG",
+          "price_gbp": 39.63,
+          "sold_date": "2026-03-12",
+          "url": "https://www.ebay.co.uk/itm/267598810571",
+          "seller": "rob_collecting",
+          "image_url": "https://i.ebayimg.com/images/g/OiYAAeSwDAJprroY/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "PSA 10 Raboot 147/142 Stellar Crown English Pokémon TCG",
+          "price_gbp": 44.6,
+          "sold_date": "2026-02-11",
+          "url": "https://www.ebay.co.uk/itm/117002978712",
+          "seller": "arranb13",
+          "image_url": "https://i.ebayimg.com/images/g/Ek0AAeSw-ABpd-BC/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Raboot | 147/142 | ACE 10 | Stellar Crown Illustration Rare | G20",
+          "price_gbp": 35,
+          "sold_date": "2026-04-05",
+          "url": "https://www.ebay.co.uk/itm/257426771290",
+          "seller": "collectorscardhouse",
+          "image_url": "https://i.ebayimg.com/images/g/Yb4AAeSwIXFpwrxY/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "ACE 10 Raboot 147/142 Illustration Rare Stellar Crown Full Art Pokemon Card",
+          "price_gbp": 39.33,
+          "sold_date": "2026-02-04",
+          "url": "https://www.ebay.co.uk/itm/389498132622",
+          "seller": "town_56",
+          "image_url": "https://i.ebayimg.com/images/g/S6MAAeSw-eRpaJU3/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "ACE 10 Raboot 147/142 Illustration Rare Stellar Crown Full Art Pokemon Card",
+          "price_gbp": 41.92,
+          "sold_date": "2026-03-27",
+          "url": "https://www.ebay.co.uk/itm/277530413040",
+          "seller": "pokeyripsuk",
+          "image_url": "https://i.ebayimg.com/images/g/BnIAAeSwfgRpJGtp/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Raboot 147/142 - Sv07: Stellar Crown Holo (PSA 10)",
+          "price_gbp": 53.21,
+          "sold_date": "2026-04-25",
+          "url": "https://www.ebay.co.uk/itm/318200676430",
+          "seller": "randomtcgfinds",
+          "image_url": "https://i.ebayimg.com/images/g/eyEAAeSwuhVp7DJ6/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Raboot Illustration Rare IR #147/142 Pokemon TCG Full Art - PSA 10 GEM MINT",
+          "price_gbp": 57.64,
+          "sold_date": "2026-04-21",
+          "url": "https://www.ebay.co.uk/itm/127818080002",
+          "seller": "hoffshobbyhaus",
+          "image_url": "https://i.ebayimg.com/images/g/07kAAOSwYQ1oDSyw/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON SCR EN-STELLAR CROWN 147 RABOOT ILLUSTRATION RARE PSA 10",
+          "price_gbp": 51.14,
+          "sold_date": "2026-04-18",
+          "url": "https://www.ebay.co.uk/itm/287189304552",
+          "seller": "teh-g33k",
+          "image_url": "https://i.ebayimg.com/images/g/CfMAAeSwyG9prcVZ/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Raboot 147 Pokemon Stellar Crown Illustration Rare PSA 10",
+          "price_gbp": 42.51,
+          "sold_date": "2026-04-12",
+          "url": "https://www.ebay.co.uk/itm/318110410127",
+          "seller": "bdsportscards760",
+          "image_url": "https://i.ebayimg.com/images/g/vXMAAeSwGTpp0tRD/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Stellar Crown Raboot #147/142 PSA 10 GEM MINT",
+          "price_gbp": 31.7,
+          "sold_date": "2026-04-12",
+          "url": "https://www.ebay.co.uk/itm/127795585558",
+          "seller": "dcsports87",
+          "image_url": "https://i.ebayimg.com/images/g/Hu0AAeSwJQ1p0-cn/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Raboot Illustration Rare Illustration Rare 147/142 Pokemon TCG PSA 10",
+          "price_gbp": 48.77,
+          "sold_date": "2026-04-09",
+          "url": "https://www.ebay.co.uk/itm/317606598681",
+          "seller": "ahokey14",
+          "image_url": "https://i.ebayimg.com/images/g/lCwAAeSwd99pLGFE/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Stellar Crown #147 Raboot IR PSA 10",
+          "price_gbp": 48.77,
+          "sold_date": "2026-04-09",
+          "url": "https://www.ebay.co.uk/itm/377023715937",
+          "seller": "jergiv23",
+          "image_url": "https://i.ebayimg.com/images/g/hMUAAeSwciBpsGz0/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Raboot 147/142 Pokemon Sv: Stellar Crown Illustration Rare 2024 GEM MINT",
+          "price_gbp": 39.91,
+          "sold_date": "2026-04-08",
+          "url": "https://www.ebay.co.uk/itm/178030769503",
+          "seller": "thatfsupp0",
+          "image_url": "https://i.ebayimg.com/images/g/~EQAAeSwgS9p1Uii/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Raboot PSA 10 2024 Pokemon Stellar Crown #147",
+          "price_gbp": 57.64,
+          "sold_date": "2026-04-07",
+          "url": "https://www.ebay.co.uk/itm/137046593680",
+          "seller": "finchandsparrowgames",
+          "image_url": "https://i.ebayimg.com/images/g/9rQAAeSwtj9plPfF/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "SV07: Stellar Crown #147/142 Raboot PSA 10",
+          "price_gbp": 48.77,
+          "sold_date": "2026-04-04",
+          "url": "https://www.ebay.co.uk/itm/206080741184",
+          "seller": "oakspokebox",
+          "image_url": "https://i.ebayimg.com/images/g/4JIAAeSwzGxplzER/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        }
+      ],
+      "stats": {
+        "psa10": {
+          "count": 17,
+          "min": 31.47,
+          "max": 57.64,
+          "median": 46.57,
+          "mean": 45.78
+        },
+        "psa10_uk": {
+          "count": 7,
+          "min": 31.47,
+          "max": 46.59,
+          "median": 44.6,
+          "mean": 42.6
+        },
+        "ace10": {
+          "count": 3,
+          "min": 35,
+          "max": 41.92,
+          "median": 39.33,
+          "mean": 38.75
+        },
+        "ace10_uk": {
+          "count": 3,
+          "min": 35,
+          "max": 41.92,
+          "median": 39.33,
+          "mean": 38.75
+        },
+        "combined": {
+          "count": 20,
+          "min": 31.47,
+          "max": 57.64,
+          "median": 44.69,
+          "mean": 44.73
+        }
+      }
+    },
+    {
+      "card_name": "Lileep",
+      "card_number": "145",
+      "set": "Stellar Crown",
+      "set_code": "SCR",
+      "rarity": "Illustration Rare",
+      "query": "lileep 145 psa 10",
+      "sold_listings": [
+        {
+          "title": "Lileep 145/142 - PSA 10 (Stellar Crown)",
+          "price_gbp": 40,
+          "sold_date": "2026-04-13",
+          "url": "https://www.ebay.co.uk/itm/389762041320",
+          "seller": "elite4collectables",
+          "image_url": "https://i.ebayimg.com/images/g/I~MAAeSwTyVpunOB/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokemon Stellar Crown Lileep #145 Special Illustration Rare - PSA 10",
+          "price_gbp": 50,
+          "sold_date": "2026-04-12",
+          "url": "https://www.ebay.co.uk/itm/327079925703",
+          "seller": "mikilee",
+          "image_url": "https://i.ebayimg.com/images/g/hn8AAeSwfxlpdUwl/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "PSA 10 Lileep Illustration Rare 145/142 Pokemon Stellar Crown",
+          "price_gbp": 53.2,
+          "sold_date": "2026-04-26",
+          "url": "https://www.ebay.co.uk/itm/336391429212",
+          "seller": "tinoscollectables",
+          "image_url": "https://i.ebayimg.com/images/g/sn0AAeSwgaVpaV4Z/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Lileep Illustration Rare 145/142 Pokemon Stellar Crown.",
+          "price_gbp": 22.91,
+          "sold_date": "2026-04-24",
+          "url": "https://www.ebay.co.uk/itm/397870714228",
+          "seller": "wax-r-us",
+          "image_url": "https://i.ebayimg.com/images/g/5rQAAeSwBxxp6YMU/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Lileep #145/142 Illustration Rare 2024 Pokemon Stellar Crown GEM MINT",
+          "price_gbp": 40.64,
+          "sold_date": "2026-04-23",
+          "url": "https://www.ebay.co.uk/itm/358451116561",
+          "seller": "packaddicts",
+          "image_url": "https://i.ebayimg.com/images/g/yY0AAeSw7H5oTzUy/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Lileep 145/142 Sv07: Stellar Crown Holo",
+          "price_gbp": 42.82,
+          "sold_date": "2026-04-22",
+          "url": "https://www.ebay.co.uk/itm/198172469246",
+          "seller": "agamersgarage",
+          "image_url": "https://i.ebayimg.com/images/g/Q1QAAeSwPU9psLaZ/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON SCR EN-STELLAR CROWN ILLUSTRATION RARE #145 LILEEP PSA 10",
+          "price_gbp": 57.64,
+          "sold_date": "2026-04-20",
+          "url": "https://www.ebay.co.uk/itm/117051713660",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/MHEAAeSwsgZpmx1X/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Stellar Crown Lileep #145/142 PSA 10 GEM MINT",
+          "price_gbp": 31.7,
+          "sold_date": "2026-04-12",
+          "url": "https://www.ebay.co.uk/itm/127795585522",
+          "seller": "dcsports87",
+          "image_url": "https://i.ebayimg.com/images/g/yNsAAeSwh91p0-bz/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Lileep Illustration Rare 145/142 Pokemon Stellar Crown PSA 10 Gem Mint",
+          "price_gbp": 48.77,
+          "sold_date": "2026-04-10",
+          "url": "https://www.ebay.co.uk/itm/277817130199",
+          "seller": "island.gaming",
+          "image_url": "https://i.ebayimg.com/images/g/m1IAAeSwzWppu8o9/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon SCR En #145 Lileep Illustration Rare PSA 10 GEM MINT",
+          "price_gbp": 31.04,
+          "sold_date": "2026-04-09",
+          "url": "https://www.ebay.co.uk/itm/377079420603",
+          "seller": "probstein123",
+          "image_url": "https://i.ebayimg.com/images/g/oLIAAeSwe3dpzUlM/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON SCR EN-STELLAR CROWN ILLUSTRATION RARE #145 LILEEP PSA 10",
+          "price_gbp": 34.81,
+          "sold_date": "2026-04-06",
+          "url": "https://www.ebay.co.uk/itm/117106094991",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/4xwAAeSwEcFpwrNm/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokémon Lileep 145/142 Stellar Crown Illustration Rare PSA 10 GEM MINT!",
+          "price_gbp": 30.3,
+          "sold_date": "2026-04-05",
+          "url": "https://www.ebay.co.uk/itm/177994531631",
+          "seller": "playyourcardsright808",
+          "image_url": "https://i.ebayimg.com/images/g/PV8AAeSwaiJpxREH/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        }
+      ],
+      "stats": {
+        "psa10": {
+          "count": 12,
+          "min": 22.91,
+          "max": 57.64,
+          "median": 40.32,
+          "mean": 40.32
+        },
+        "psa10_uk": {
+          "count": 2,
+          "min": 40,
+          "max": 50,
+          "median": 45,
+          "mean": 45
+        },
+        "ace10": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null,
+          "mean": null
+        },
+        "ace10_uk": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null,
+          "mean": null
+        },
+        "combined": {
+          "count": 12,
+          "min": 22.91,
+          "max": 57.64,
+          "median": 40.32,
+          "mean": 40.32
+        }
+      }
+    },
+    {
+      "card_name": "Lana's Aid",
+      "card_number": "219",
+      "set": "Twilight Masquerade",
+      "set_code": "TWM",
+      "rarity": "Special Illustration Rare",
+      "query": "lana's aid 219 psa 10",
+      "sold_listings": [
+        {
+          "title": "Lana's Aid Trainer SIR 219/167 Twilight Masquerade Graded Pokemon Card Ace 10",
+          "price_gbp": 68.01,
+          "sold_date": "2026-03-03",
+          "url": "https://www.ebay.co.uk/itm/286790188831",
+          "seller": "romben18",
+          "image_url": "https://i.ebayimg.com/images/g/gCUAAeSw7h1osOrf/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Lana's Aid 219/167 Twilight Masquerade PSA 10 Gem Mint",
+          "price_gbp": 69.39,
+          "sold_date": "2026-03-25",
+          "url": "https://www.ebay.co.uk/itm/127613139243",
+          "seller": "bu5tergary",
+          "image_url": "https://i.ebayimg.com/images/g/rQ0AAeSwMixpYMIB/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "PSA 10 Lana's Aid 219/167 Sv06: Twilight Masquerade Holo",
+          "price_gbp": 59.5,
+          "sold_date": "2026-03-12",
+          "url": "https://www.ebay.co.uk/itm/389599261046",
+          "seller": "jaxpokestop",
+          "image_url": "https://i.ebayimg.com/images/g/2MwAAeSwKuFpilLF/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "ACE 10 Lana's Aid 219/167 Twilight Masquerade SIR Holo Pokemon Card - Gem Mint",
+          "price_gbp": 59.45,
+          "sold_date": "2026-01-28",
+          "url": "https://www.ebay.co.uk/itm/227116323421",
+          "seller": "jons_cardshop",
+          "image_url": "https://i.ebayimg.com/images/g/aXsAAeSwfgRpMcFg/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Lana's Aid Trainer SIR 219/167 Twilight Masquerade Graded Pokemon Card Ace 10",
+          "price_gbp": 75.5,
+          "sold_date": "2026-04-02",
+          "url": "https://www.ebay.co.uk/itm/396750883268",
+          "seller": "mintgrade.collects",
+          "image_url": "https://i.ebayimg.com/images/g/u8wAAeSw9IRoT-PX/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "2024 Pokemon Twilight Masquerade Lana's Aid #219/167 PSA 10 GEM MINT",
+          "price_gbp": 75.75,
+          "sold_date": "2026-04-23",
+          "url": "https://www.ebay.co.uk/itm/377121512699",
+          "seller": "dcsports87",
+          "image_url": "https://i.ebayimg.com/images/g/Fy8AAeSw~o5p4pHF/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Lana's Aid 2024 Pokemon TWM EN Special Illustration Rare #219 PSA 10",
+          "price_gbp": 97.54,
+          "sold_date": "2026-04-17",
+          "url": "https://www.ebay.co.uk/itm/366339784392",
+          "seller": "maew_tcg",
+          "image_url": "https://i.ebayimg.com/images/g/890AAeSwLfxp2aNl/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Pokemon TCG Lana's Aid 219/167 Sv06: Twilight Masquerade Holo 💎",
+          "price_gbp": 87.79,
+          "sold_date": "2026-04-12",
+          "url": "https://www.ebay.co.uk/itm/335864642665",
+          "seller": "darksidecards84",
+          "image_url": "https://i.ebayimg.com/images/g/XPcAAOSwMzVngSLJ/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TWM EN-TWILIGHT MASQUERADE #219 LANA'S AID PSA 10",
+          "price_gbp": 82.46,
+          "sold_date": "2026-04-06",
+          "url": "https://www.ebay.co.uk/itm/188239830127",
+          "seller": "portoregon",
+          "image_url": "https://i.ebayimg.com/images/g/o~MAAeSwIkZpeAme/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TWM EN-TWILIGHT MASQUERADE #219 LANA'S AID PSA 10",
+          "price_gbp": 101.98,
+          "sold_date": "2026-04-06",
+          "url": "https://www.ebay.co.uk/itm/306518993339",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/MywAAeSwGrFo10P8/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TWM #219 LANA'S AID - SIR - PSA 10",
+          "price_gbp": 70.94,
+          "sold_date": "2026-04-03",
+          "url": "https://www.ebay.co.uk/itm/318097117405",
+          "seller": "jhooks",
+          "image_url": "https://i.ebayimg.com/images/g/r8QAAeSwTmlpzvYd/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Pokemon TCG Lana's Aid 219/167 Sv06: Twilight Masquerade Holo 💎",
+          "price_gbp": 75.37,
+          "sold_date": "2026-03-25",
+          "url": "https://www.ebay.co.uk/itm/298156738518",
+          "seller": "1upgamesga",
+          "image_url": "https://i.ebayimg.com/images/g/togAAeSw9ChpwrBg/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TWM EN-SPECIAL ILLUSTRATION RARE #219 LANA'S AID PSA 10",
+          "price_gbp": 67.25,
+          "sold_date": "2026-03-25",
+          "url": "https://www.ebay.co.uk/itm/298130066510",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/M8IAAeSwIQ9puBpz/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Lana's Aid 219/167 Twilight Masquerade Sir Pokemon TCG Card Graded PSA 10",
+          "price_gbp": 81.58,
+          "sold_date": "2026-03-16",
+          "url": "https://www.ebay.co.uk/itm/206132457554",
+          "seller": "bkaisbiggins",
+          "image_url": "https://i.ebayimg.com/images/g/QWsAAeSwfLxpsze5/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        }
+      ],
+      "stats": {
+        "psa10": {
+          "count": 11,
+          "min": 59.5,
+          "max": 101.98,
+          "median": 75.75,
+          "mean": 79.05
+        },
+        "psa10_uk": {
+          "count": 2,
+          "min": 59.5,
+          "max": 69.39,
+          "median": 64.44,
+          "mean": 64.44
+        },
+        "ace10": {
+          "count": 3,
+          "min": 59.45,
+          "max": 75.5,
+          "median": 68.01,
+          "mean": 67.65
+        },
+        "ace10_uk": {
+          "count": 3,
+          "min": 59.45,
+          "max": 75.5,
+          "median": 68.01,
+          "mean": 67.65
+        },
+        "combined": {
+          "count": 14,
+          "min": 59.45,
+          "max": 101.98,
+          "median": 75.44,
+          "mean": 76.61
+        }
+      }
+    },
+    {
+      "card_name": "Shiftry",
+      "card_number": "163",
+      "set": "Temporal Forces",
+      "set_code": "TEF",
+      "rarity": "Illustration Rare",
+      "query": "shiftry 163 psa 10",
+      "sold_listings": [
+        {
+          "title": "Pokemon TCG Shiftry 163/162 Temporal Forces Illustration Rare Card PSA 10 Gem Mt",
+          "price_gbp": 45.64,
+          "sold_date": "2026-02-26",
+          "url": "https://www.ebay.co.uk/itm/188087943744",
+          "seller": "alre9967",
+          "image_url": "https://i.ebayimg.com/images/g/OxoAAeSwFQxpnF0G/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokémon TCG Shiftry 163/162 Ace 10 Graded",
+          "price_gbp": 24.73,
+          "sold_date": "2026-04-16",
+          "url": "https://www.ebay.co.uk/itm/127807747051",
+          "seller": "poke.mike.b",
+          "image_url": "https://i.ebayimg.com/images/g/5RAAAeSwKZRn-6Xv/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Shiftry 163/162 Temporal Forces Illustration Rare Pokemon Card Ace 10",
+          "price_gbp": 30.73,
+          "sold_date": "2026-03-06",
+          "url": "https://www.ebay.co.uk/itm/157721878128",
+          "seller": "majinchucollectables",
+          "image_url": "https://i.ebayimg.com/images/g/8PMAAeSwwgNpngwQ/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Shiftry 163/162 Temporal Forces Illustration Rare Pokemon Card Ace 10",
+          "price_gbp": 29.52,
+          "sold_date": "2026-04-23",
+          "url": "https://www.ebay.co.uk/itm/298219447311",
+          "seller": "tboy701",
+          "image_url": "https://i.ebayimg.com/images/g/SpUAAeSw1URp2-ym/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Shiftry 163/162 Temporal Forces Illustration Rare Pokemon Card Ace 10",
+          "price_gbp": 31.69,
+          "sold_date": "2026-03-03",
+          "url": "https://www.ebay.co.uk/itm/198149586853",
+          "seller": "anthol_2994",
+          "image_url": "https://i.ebayimg.com/images/g/AnkAAeSwqcxppf5x/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Shiftry 163/162 Temporal Forces Illustration Rare Pokemon Card Ace 10",
+          "price_gbp": 41.92,
+          "sold_date": "2026-02-01",
+          "url": "https://www.ebay.co.uk/itm/297563249143",
+          "seller": "tboy701",
+          "image_url": "https://i.ebayimg.com/images/g/Aa4AAeSwxN1oqxE3/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "POKEMON SHIFTRY 163/162 SV05: TEMPORAL FORCES ILLUSTRATION RARE HOLO PSA 10",
+          "price_gbp": 63.85,
+          "sold_date": "2026-04-24",
+          "url": "https://www.ebay.co.uk/itm/298239465795",
+          "seller": "xxjoker1221xx_9",
+          "image_url": "https://i.ebayimg.com/images/g/C4wAAeSw5vBp46PU/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon SV05: Temporal Forces Shiftry Illustration Rare Holo 163/162 PSA 10",
+          "price_gbp": 57.63,
+          "sold_date": "2026-04-20",
+          "url": "https://www.ebay.co.uk/itm/358446717037",
+          "seller": "313cardz",
+          "image_url": "https://i.ebayimg.com/images/g/nGcAAeSwh5Vp3oTD/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Temporal Forces Shiftry #163/162 PSA 10 GEM MINT",
+          "price_gbp": 39.09,
+          "sold_date": "2026-04-17",
+          "url": "https://www.ebay.co.uk/itm/377105774670",
+          "seller": "dcsports87",
+          "image_url": "https://i.ebayimg.com/images/g/EW8AAeSw3uFp2nX-/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Shiftry Illustration Rare Pokemon Tef En-Temporal Forces 163 NM PSA 10",
+          "price_gbp": 70.94,
+          "sold_date": "2026-04-16",
+          "url": "https://www.ebay.co.uk/itm/198197608035",
+          "seller": "cardmaxtcg",
+          "image_url": "https://i.ebayimg.com/images/g/xt4AAeSwDq5puO4w/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon SV05: Temporal Forces Shiftry Illustration Rare Holo 163/162 PSA 10 2024",
+          "price_gbp": 56.75,
+          "sold_date": "2026-04-16",
+          "url": "https://www.ebay.co.uk/itm/377048335963",
+          "seller": "pokeshoosh-81",
+          "image_url": "https://i.ebayimg.com/images/g/mdIAAeSwJqhpvKV6/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokemon 2024 Shiftry 163/162 Full Art IR Temporal Forces GEM MINT PSA 10",
+          "price_gbp": 51.73,
+          "sold_date": "2026-04-16",
+          "url": "https://www.ebay.co.uk/itm/406833204414",
+          "seller": "arizona_tcg",
+          "image_url": "https://i.ebayimg.com/images/g/iYAAAeSwJQ1p0xXE/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #163 SHIFTRY PSA 10",
+          "price_gbp": 57.64,
+          "sold_date": "2026-04-11",
+          "url": "https://www.ebay.co.uk/itm/117122379323",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/9ZEAAeSwKidpzuDM/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #163 SHIFTRY PSA 10",
+          "price_gbp": 62.07,
+          "sold_date": "2026-04-08",
+          "url": "https://www.ebay.co.uk/itm/406741589808",
+          "seller": "lechonkhits",
+          "image_url": "https://i.ebayimg.com/images/g/yu8AAeSwqd9pqpYV/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #163 SHIFTRY PSA 10",
+          "price_gbp": 39.17,
+          "sold_date": "2026-04-08",
+          "url": "https://www.ebay.co.uk/itm/298175532095",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/FyYAAeSwYZ9pyk-V/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Shiftry # 163/162 IR | Pokemon TCG - 2024 Temporal Forces | PSA 10 GEM MT",
+          "price_gbp": 69.16,
+          "sold_date": "2026-04-07",
+          "url": "https://www.ebay.co.uk/itm/317849369741",
+          "seller": "beej-os_card_shop",
+          "image_url": "https://i.ebayimg.com/images/g/fNUAAeSw8VdphoUX/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Shiftry 163/162 Pokemon Card Temporal Forces Illustration Rare PSA 10 Gem Mint",
+          "price_gbp": 54.94,
+          "sold_date": "2026-04-07",
+          "url": "https://www.ebay.co.uk/itm/257427454104",
+          "seller": "legacygiant124",
+          "image_url": "https://i.ebayimg.com/images/g/LlwAAeSw0SNpxeHs/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #163 SHIFTRY PSA 10",
+          "price_gbp": 42.12,
+          "sold_date": "2026-04-03",
+          "url": "https://www.ebay.co.uk/itm/306843645913",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/wiEAAeSwgV5pxK~m/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "SHIFTRY 163/162 TEF EN TEMPORAL FORCES ILLUSTRATION RARE #163 PSA 10 GEM MINT",
+          "price_gbp": 53.21,
+          "sold_date": "2026-04-01",
+          "url": "https://www.ebay.co.uk/itm/389786283247",
+          "seller": "belloboys808",
+          "image_url": "https://i.ebayimg.com/images/g/e4gAAeSwySxpwMlY/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #163 SHIFTRY PSA 10",
+          "price_gbp": 48.77,
+          "sold_date": "2026-04-01",
+          "url": "https://www.ebay.co.uk/itm/117098711760",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/0WYAAeSwurVpvZzX/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokemon Temporal Forces Shiftry 163 PSA 10",
+          "price_gbp": 62.08,
+          "sold_date": "2026-03-29",
+          "url": "https://www.ebay.co.uk/itm/377033465008",
+          "seller": "collectibleswarehouse1",
+          "image_url": "https://i.ebayimg.com/images/g/260AAeSwIY9ptQYH/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Shiftry 163/162 Pokemon Card Temporal Forces Illustration Rare PSA 10 Gem Mint",
+          "price_gbp": 48.77,
+          "sold_date": "2026-03-25",
+          "url": "https://www.ebay.co.uk/itm/157780202153",
+          "seller": "the_poke_pot_spot",
+          "image_url": "https://i.ebayimg.com/images/g/uQgAAeSwcIZpr2t6/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #163 SHIFTRY PSA 10",
+          "price_gbp": 56.75,
+          "sold_date": "2026-03-17",
+          "url": "https://www.ebay.co.uk/itm/117062693961",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/JgIAAeSwEIhpo2UP/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Shiftry 163/162 Pokemon Card Temporal Forces Illustration Rare PSA 10 Gem Mint",
+          "price_gbp": 50.99,
+          "sold_date": "2026-03-17",
+          "url": "https://www.ebay.co.uk/itm/157738443467",
+          "seller": "the_poke_pot_spot",
+          "image_url": "https://i.ebayimg.com/images/g/uQgAAeSwcIZpr2t6/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        }
+      ],
+      "stats": {
+        "psa10": {
+          "count": 19,
+          "min": 39.09,
+          "max": 70.94,
+          "median": 54.94,
+          "mean": 54.28
+        },
+        "psa10_uk": {
+          "count": 1,
+          "min": 45.64,
+          "max": 45.64,
+          "median": 45.64,
+          "mean": 45.64
+        },
+        "ace10": {
+          "count": 5,
+          "min": 24.73,
+          "max": 41.92,
+          "median": 30.73,
+          "mean": 31.72
+        },
+        "ace10_uk": {
+          "count": 5,
+          "min": 24.73,
+          "max": 41.92,
+          "median": 30.73,
+          "mean": 31.72
+        },
+        "combined": {
+          "count": 24,
+          "min": 24.73,
+          "max": 70.94,
+          "median": 51.36,
+          "mean": 49.58
+        }
+      }
+    },
+    {
+      "card_name": "Chatot",
+      "card_number": "181",
+      "set": "Temporal Forces",
+      "set_code": "TEF",
+      "rarity": "Illustration Rare",
+      "query": "chatot 181 psa 10",
+      "sold_listings": [
+        {
+          "title": "Pokémon TCG Chatot Illustration Rare Temporal Forces 181/162 PSA 10 GEM MT",
+          "price_gbp": 83.24,
+          "sold_date": "2026-04-08",
+          "url": "https://www.ebay.co.uk/itm/377084368675",
+          "seller": "lemonboost",
+          "image_url": "https://i.ebayimg.com/images/g/pq4AAeSwz3ZpmvjN/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Chatot 181/162 Temporal Forces - PSA 10",
+          "price_gbp": 88.41,
+          "sold_date": "2026-03-05",
+          "url": "https://www.ebay.co.uk/itm/326951249482",
+          "seller": "plastichero",
+          "image_url": "https://i.ebayimg.com/images/g/fm8AAeSwFqdpY8SD/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "PSA 10 Chatot #181 2024 Pokemon Temporal Forces Card Illustration Rare Gem Mint",
+          "price_gbp": 85,
+          "sold_date": "2026-02-02",
+          "url": "https://www.ebay.co.uk/itm/227155541990",
+          "seller": "gemguarduk",
+          "image_url": "https://i.ebayimg.com/images/g/ReUAAeSwOJxpVm-c/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokémon TCG Chatot 181/162 Temporal Forces GRADED ACE 10",
+          "price_gbp": 28.2,
+          "sold_date": "2026-04-15",
+          "url": "https://www.ebay.co.uk/itm/127811069394",
+          "seller": "cardsbypete",
+          "image_url": "https://i.ebayimg.com/images/g/bW0AAeSw1Hpp3yvp/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokémon TCG Chatot Card 181/162 Temporal Forces Illustration Rare ACE 10",
+          "price_gbp": 39.62,
+          "sold_date": "2026-04-09",
+          "url": "https://www.ebay.co.uk/itm/377073731362",
+          "seller": "jw_cards1",
+          "image_url": "https://i.ebayimg.com/images/g/btYAAeSw9lFpypSP/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Ace 10 Chatot 181/162 Temporal Forces Rare Pokémon perfect subgrades read descri",
+          "price_gbp": 52.25,
+          "sold_date": "2026-03-31",
+          "url": "https://www.ebay.co.uk/itm/317897101358",
+          "seller": "iamde_60",
+          "image_url": "https://i.ebayimg.com/images/g/bGgAAeSwgY5plmD5/s-l500.webp",
+          "country": null,
+          "grade": "ACE 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokemon PSA 10 Chatot 181/162 Illustration Rare Temporal Forces Gem Mint",
+          "price_gbp": 79.8,
+          "sold_date": "2025-10-12",
+          "url": "https://www.ebay.co.uk/itm/177429458420",
+          "seller": "ronsoscards",
+          "image_url": "https://i.ebayimg.com/images/g/X94AAeSwyI1o0D2F/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEMPORAL FORCES EN 181 PSA 10 GEM MINT CHATOT ILLUSTRATION RARE.",
+          "price_gbp": 201.13,
+          "sold_date": "2026-04-09",
+          "url": "https://www.ebay.co.uk/itm/366066283408",
+          "seller": "trulyra51",
+          "image_url": "https://i.ebayimg.com/images/g/j20AAeSwr5tpFiSr/s-l500.webp",
+          "country": "Canada",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #181 CHATOT PSA 10",
+          "price_gbp": 67.25,
+          "sold_date": "2026-04-06",
+          "url": "https://www.ebay.co.uk/itm/117110550353",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/QfUAAeSwYwFpxeMn/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Chatot #181 IR Illustration Rare 2024 Temporal Forces PSA 10 135065797",
+          "price_gbp": 79.77,
+          "sold_date": "2026-04-01",
+          "url": "https://www.ebay.co.uk/itm/277811642625",
+          "seller": "thundersnowcollectibles",
+          "image_url": "https://i.ebayimg.com/images/g/CDUAAeSww5NpuXRb/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Chatot 181/162 SV05: Temporal Forces Holo PSA 10",
+          "price_gbp": 88.68,
+          "sold_date": "2026-03-31",
+          "url": "https://www.ebay.co.uk/itm/267615781647",
+          "seller": "corsbiegaming",
+          "image_url": "https://i.ebayimg.com/images/g/xL0AAeSwPOhpvuGj/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES ILLUSTRATION RARE #181 CHATOT PSA 10",
+          "price_gbp": 48.03,
+          "sold_date": "2026-03-30",
+          "url": "https://www.ebay.co.uk/itm/306835743023",
+          "seller": null,
+          "image_url": "https://i.ebayimg.com/images/g/BjcAAeSw1pFpv1Fp/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Chatot #181 IR Illustration Rare 2024 Temporal Forces PSA 10 135065796",
+          "price_gbp": 79.77,
+          "sold_date": "2026-03-28",
+          "url": "https://www.ebay.co.uk/itm/277811642118",
+          "seller": "thundersnowcollectibles",
+          "image_url": "https://i.ebayimg.com/images/g/g3YAAeSwo~lpuXIT/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        }
+      ],
+      "stats": {
+        "psa10": {
+          "count": 10,
+          "min": 48.03,
+          "max": 201.13,
+          "median": 81.52,
+          "mean": 90.11
+        },
+        "psa10_uk": {
+          "count": 3,
+          "min": 83.24,
+          "max": 88.41,
+          "median": 85,
+          "mean": 85.55
+        },
+        "ace10": {
+          "count": 3,
+          "min": 28.2,
+          "max": 52.25,
+          "median": 39.62,
+          "mean": 40.02
+        },
+        "ace10_uk": {
+          "count": 3,
+          "min": 28.2,
+          "max": 52.25,
+          "median": 39.62,
+          "mean": 40.02
+        },
+        "combined": {
+          "count": 13,
+          "min": 28.2,
+          "max": 201.13,
+          "median": 79.77,
+          "mean": 78.55
+        }
+      }
+    },
+    {
+      "card_name": "Gengar ex",
+      "card_number": "104",
+      "set": "Temporal Forces",
+      "set_code": "TEF",
+      "rarity": "Double Rare",
+      "query": "gengar ex 104 psa 10",
+      "sold_listings": [
+        {
+          "title": "Pokemon TCG - Gengar EX Temporal Forces 104/162 - Gem Mint PSA 10",
+          "price_gbp": 103.92,
+          "sold_date": "2026-04-20",
+          "url": "https://www.ebay.co.uk/itm/257464464361",
+          "seller": "the_poke_vault",
+          "image_url": "https://i.ebayimg.com/images/g/zzAAAeSwmH9p5OEu/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokemon TCG - Gengar EX 104/162 Temporal Forces - PSA 10",
+          "price_gbp": 103.92,
+          "sold_date": "2026-04-10",
+          "url": "https://www.ebay.co.uk/itm/127797059795",
+          "seller": "funkoginge",
+          "image_url": "https://i.ebayimg.com/images/g/VxYAAeSwryZp1QVO/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "pokemon PSA 10 Gengar EX 104/162, Temporal Forces",
+          "price_gbp": 94.62,
+          "sold_date": "2026-04-05",
+          "url": "https://www.ebay.co.uk/itm/147133488369",
+          "seller": "paulsgreat",
+          "image_url": "https://i.ebayimg.com/images/g/veAAAeSwKuFpgavw/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokémon Gengar EX Scarlet Violet Temporal Forces 104/162 PSA 10 Gem Mint",
+          "price_gbp": 93.58,
+          "sold_date": "2026-03-05",
+          "url": "https://www.ebay.co.uk/itm/397675419024",
+          "seller": "the_pokehub",
+          "image_url": "https://i.ebayimg.com/images/g/Vm0AAeSwpvJpqIt9/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokémon Gengar EX Scarlet Violet Temporal Forces 104/162 PSA 10 Gem Mint",
+          "price_gbp": 74.4,
+          "sold_date": "2026-02-26",
+          "url": "https://www.ebay.co.uk/itm/336443009103",
+          "seller": "gwihug0",
+          "image_url": "https://i.ebayimg.com/images/g/VzcAAeSwu-Npl5ch/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokémon Gengar bundle x3 V 156/264, Vmax 157/265, EX 104/162 PSA 10 x 3",
+          "price_gbp": 391.92,
+          "sold_date": "2026-02-20",
+          "url": "https://www.ebay.co.uk/itm/177878187747",
+          "seller": "gemgar-094",
+          "image_url": "https://i.ebayimg.com/images/g/eeYAAeSwzMJpmF6I/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokémon! PSA 10 Gengar EX 104/162, Temporal Forces",
+          "price_gbp": 103.92,
+          "sold_date": "2026-02-18",
+          "url": "https://www.ebay.co.uk/itm/117015397128",
+          "seller": "scottrich17",
+          "image_url": "https://i.ebayimg.com/images/g/U1kAAeSwhnhpgQpi/s-l500.webp",
+          "country": null,
+          "grade": "PSA 10",
+          "scope": "UK"
+        },
+        {
+          "title": "Pokemon Gengar ex Temporal Forces Double Rare #104 PSA 10 Gem Mint",
+          "price_gbp": 106.41,
+          "sold_date": "2026-04-26",
+          "url": "https://www.ebay.co.uk/itm/287292342586",
+          "seller": "zandgemporium",
+          "image_url": "https://i.ebayimg.com/images/g/suwAAeSwLFVp6-Ic/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEMPORAL FORCES EN HOLO GENGAR EX #104 PSA 10 GEM MT",
+          "price_gbp": 140.4,
+          "sold_date": "2026-04-21",
+          "url": "https://www.ebay.co.uk/itm/397857673813",
+          "seller": "9x7zc_36",
+          "image_url": "https://i.ebayimg.com/images/g/mJkAAeSwhFFp0ZWn/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 133.02,
+          "sold_date": "2026-04-11",
+          "url": "https://www.ebay.co.uk/itm/298194472019",
+          "seller": "alleviates-16",
+          "image_url": "https://i.ebayimg.com/images/g/3ucAAeSwDFxp0ajj/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 166.27,
+          "sold_date": "2026-04-18",
+          "url": "https://www.ebay.co.uk/itm/306875732258",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/o0UAAeSweUpp2xmF/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 140.41,
+          "sold_date": "2026-04-18",
+          "url": "https://www.ebay.co.uk/itm/306875666296",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/X1kAAeSwN-lp2wS4/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 141.89,
+          "sold_date": "2026-04-17",
+          "url": "https://www.ebay.co.uk/itm/298180006890",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/gd0AAeSwzkppxEnp/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 133.02,
+          "sold_date": "2026-04-15",
+          "url": "https://www.ebay.co.uk/itm/406853735397",
+          "seller": "bayardsbargains",
+          "image_url": "https://i.ebayimg.com/images/g/r-4AAeSwvsRp3R69/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Gengar EX 104/162 Tef En-temporal Forces Pokemon PSA 10 *889",
+          "price_gbp": 90.53,
+          "sold_date": "2026-04-13",
+          "url": "https://www.ebay.co.uk/itm/287245694817",
+          "seller": "stfgaming",
+          "image_url": "https://i.ebayimg.com/images/g/0tAAAeSwV3RpzGFO/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon Gengar ex 104/162 SV05 Temporal Forces Holo Double Rare Full Art PSA 10",
+          "price_gbp": 79.81,
+          "sold_date": "2026-04-12",
+          "url": "https://www.ebay.co.uk/itm/287254007871",
+          "seller": "de_246534",
+          "image_url": "https://i.ebayimg.com/images/g/wPcAAeSwSYZpx-3F/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokemon 2024 SV Temporal Forces TEF en Gengar EX #104/162 PSA 10",
+          "price_gbp": 115.24,
+          "sold_date": "2026-04-11",
+          "url": "https://www.ebay.co.uk/itm/366325486564",
+          "seller": "ballbreakerz",
+          "image_url": "https://i.ebayimg.com/images/g/U4YAAeSwJQ1p0D9Y/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEMPORAL FORCES EN HOLO GENGAR EX #104 PSA 10 GEM MT",
+          "price_gbp": 141.88,
+          "sold_date": "2026-04-07",
+          "url": "https://www.ebay.co.uk/itm/397802790753",
+          "seller": "9x7zc_36",
+          "image_url": "https://i.ebayimg.com/images/g/mJkAAeSwhFFp0ZWn/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokemon 2024 SV Temporal Forces TEF en Gengar EX #104/162 PSA 10",
+          "price_gbp": 115.24,
+          "sold_date": "2026-04-07",
+          "url": "https://www.ebay.co.uk/itm/366325493731",
+          "seller": "ballbreakerz",
+          "image_url": "https://i.ebayimg.com/images/g/Dd8AAeSw40Zp0EE7/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Gengar ex #104 2024 Pokemon Temporal Forces PSA 10 143029298",
+          "price_gbp": 133.02,
+          "sold_date": "2026-04-03",
+          "url": "https://www.ebay.co.uk/itm/287208837216",
+          "seller": "thundersnowcollectibles",
+          "image_url": "https://i.ebayimg.com/images/g/g00AAeSw7tJpt-7l/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon Gengar ex 104/162 SV05 Temporal Forces Holo Double Rare Full Art PSA 10",
+          "price_gbp": 121.31,
+          "sold_date": "2026-04-03",
+          "url": "https://www.ebay.co.uk/itm/178001473350",
+          "seller": "sunday_treasures",
+          "image_url": "https://i.ebayimg.com/images/g/JWkAAeSwMihpyDL8/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Temporal Forces 104 Gengar ex PSA 10 134718279",
+          "price_gbp": 141.88,
+          "sold_date": "2026-04-02",
+          "url": "https://www.ebay.co.uk/itm/157800729738",
+          "seller": "pc_sportscards",
+          "image_url": "https://i.ebayimg.com/images/g/STQAAeSwWENpzCWN/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokemon Gengar ex Temporal Forces Double Rare #104 PSA 10 Gem Mint",
+          "price_gbp": 70.94,
+          "sold_date": "2026-03-29",
+          "url": "https://www.ebay.co.uk/itm/287214837442",
+          "seller": "zandgemporium",
+          "image_url": "https://i.ebayimg.com/images/g/e-0AAeSwOt5putNm/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Gengar ex #104 2024 Pokemon Temporal Forces PSA 10 143029300",
+          "price_gbp": 133.02,
+          "sold_date": "2026-03-29",
+          "url": "https://www.ebay.co.uk/itm/277808300346",
+          "seller": "thundersnowcollectibles",
+          "image_url": "https://i.ebayimg.com/images/g/5MIAAeSwKnlpt-5I/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 GENGAR EX #104 POKEMON TEMPORAL FORCES EN PSA 10",
+          "price_gbp": 113.5,
+          "sold_date": "2026-03-26",
+          "url": "https://www.ebay.co.uk/itm/336483149832",
+          "seller": "one_treasure",
+          "image_url": "https://i.ebayimg.com/images/g/LTsAAeSwjLdpty7P/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 133.02,
+          "sold_date": "2026-03-25",
+          "url": "https://www.ebay.co.uk/itm/306837820072",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/brsAAeSwyw5pwJ-n/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Temporal Forces Gengar ex #104/162 PSA 10 GEM MINT",
+          "price_gbp": 67.25,
+          "sold_date": "2026-03-25",
+          "url": "https://www.ebay.co.uk/itm/377046525198",
+          "seller": "dcsports87",
+          "image_url": "https://i.ebayimg.com/images/g/jE4AAeSwqg1pu7AL/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon TCG Gengar EX Temporal Forces Ultra Rare Card 104/162 PSA 10 Gem Mint",
+          "price_gbp": 63.55,
+          "sold_date": "2026-03-23",
+          "url": "https://www.ebay.co.uk/itm/227259776126",
+          "seller": "thevaultsociety",
+          "image_url": "https://i.ebayimg.com/images/g/5NgAAeSwPfRpuHn6/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon TCG Gengar EX Temporal Forces Ultra Rare Card 104/162 PSA 10",
+          "price_gbp": 88.68,
+          "sold_date": "2026-03-18",
+          "url": "https://www.ebay.co.uk/itm/227259774482",
+          "seller": "thevaultsociety",
+          "image_url": "https://i.ebayimg.com/images/g/z~IAAeSw635puHmv/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "144940541 Gengar ex 2024 Pokemon Temporal Forces #104 PSA 10",
+          "price_gbp": 83.14,
+          "sold_date": "2026-03-18",
+          "url": "https://www.ebay.co.uk/itm/157741106110",
+          "seller": "pc_sportscards",
+          "image_url": "https://i.ebayimg.com/images/g/uQQAAeSwrgZpnfpQ/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 124.15,
+          "sold_date": "2026-03-12",
+          "url": "https://www.ebay.co.uk/itm/306764621805",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/MM0AAeSw7ZRpjMsd/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Gengar ex #104 Pokémon Temporal Forces English 2024",
+          "price_gbp": 106.41,
+          "sold_date": "2026-03-09",
+          "url": "https://www.ebay.co.uk/itm/406705839068",
+          "seller": "solacido",
+          "image_url": "https://i.ebayimg.com/images/g/g3oAAeSw5iFpldHQ/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon TCG Gengar EX Temporal Forces Ultra Rare Card 104/162 PSA 10",
+          "price_gbp": 88.68,
+          "sold_date": "2026-03-09",
+          "url": "https://www.ebay.co.uk/itm/358298817280",
+          "seller": "alvollb_0",
+          "image_url": "https://i.ebayimg.com/images/g/3S8AAeSwkt9prHbs/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 73.16,
+          "sold_date": "2026-03-08",
+          "url": "https://www.ebay.co.uk/itm/298073623976",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/BwQAAeSw50Npomg-/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 110.4,
+          "sold_date": "2026-03-06",
+          "url": "https://www.ebay.co.uk/itm/298021055479",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/vccAAeSw2iRpi-bs/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokemon PSA 10 Gengar EX TCG Double Rare 104/162 Temporal Forces Free Shipping",
+          "price_gbp": 106.41,
+          "sold_date": "2026-03-05",
+          "url": "https://www.ebay.co.uk/itm/358158351542",
+          "seller": "schroedls_retro_classics",
+          "image_url": "https://i.ebayimg.com/images/g/VG0AAeSwAwBpd7Zl/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "144940541 Gengar ex 2024 Pokemon Temporal Forces #104 PSA 10",
+          "price_gbp": 67.25,
+          "sold_date": "2026-03-04",
+          "url": "https://www.ebay.co.uk/itm/157705918189",
+          "seller": "pc_sportscards",
+          "image_url": "https://i.ebayimg.com/images/g/uQQAAeSwrgZpnfpQ/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 73.9,
+          "sold_date": "2026-03-03",
+          "url": "https://www.ebay.co.uk/itm/117052690563",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/DhkAAeSwlNdpm9No/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Temporal Forces Gengar ex #104/162 PSA 10",
+          "price_gbp": 59.86,
+          "sold_date": "2026-03-03",
+          "url": "https://www.ebay.co.uk/itm/127704916569",
+          "seller": "dcsports87",
+          "image_url": "https://i.ebayimg.com/images/g/d2IAAeSw3IVpnzc~/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Gengar ex #104 Pokémon Temporal Forces English 2024",
+          "price_gbp": 42.86,
+          "sold_date": "2026-03-01",
+          "url": "https://www.ebay.co.uk/itm/327014208045",
+          "seller": "egoboy706",
+          "image_url": "https://i.ebayimg.com/images/g/7dMAAeSwM0tpm4yL/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon Gengar ex 104/162 SV05 Temporal Forces Holo Double Rare Full Art PSA 10",
+          "price_gbp": 124.15,
+          "sold_date": "2026-02-28",
+          "url": "https://www.ebay.co.uk/itm/317856334416",
+          "seller": "slabbedup",
+          "image_url": "https://i.ebayimg.com/images/g/lgsAAeSwalhpgSKz/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 70.2,
+          "sold_date": "2026-02-28",
+          "url": "https://www.ebay.co.uk/itm/298047386863",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/s0UAAeSwVR1pl01J/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "Pokémon TCG Gengar EX Temporal Forces Holo Foil 104/162 English PSA 10",
+          "price_gbp": 56.16,
+          "sold_date": "2026-02-22",
+          "url": "https://www.ebay.co.uk/itm/206071315818",
+          "seller": "gamerzplus",
+          "image_url": "https://i.ebayimg.com/images/g/9t8AAeSw8KppkS0y/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 59.86,
+          "sold_date": "2026-02-14",
+          "url": "https://www.ebay.co.uk/itm/306753256672",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/5MgAAeSwxsRphWkM/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 105.53,
+          "sold_date": "2026-02-12",
+          "url": "https://www.ebay.co.uk/itm/298017606711",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/p4IAAeSwhMVphtN~/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "PSA 10 Gengar ex #104 Pokémon Temporal Forces English 2024",
+          "price_gbp": 106.41,
+          "sold_date": "2026-02-09",
+          "url": "https://www.ebay.co.uk/itm/406674502202",
+          "seller": "solacido",
+          "image_url": "https://i.ebayimg.com/images/g/y3QAAeSwdUJphf3y/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 66.51,
+          "sold_date": "2026-02-07",
+          "url": "https://www.ebay.co.uk/itm/117007482005",
+          "seller": "psa",
+          "image_url": "https://i.ebayimg.com/images/g/DX0AAeSw0Rhpe2EP/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 Pokemon Temporal Forces Gengar ex #104/162 PSA 10",
+          "price_gbp": 63.55,
+          "sold_date": "2026-02-04",
+          "url": "https://www.ebay.co.uk/itm/376913106556",
+          "seller": "dcsports87",
+          "image_url": "https://i.ebayimg.com/images/g/frAAAeSwegJpe8A7/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        },
+        {
+          "title": "2024 POKEMON TEF EN-TEMPORAL FORCES #104 GENGAR EX PSA 10",
+          "price_gbp": 123.26,
+          "sold_date": "2026-01-31",
+          "url": "https://www.ebay.co.uk/itm/157639332040",
+          "seller": "phoenixcomicscardsgames",
+          "image_url": "https://i.ebayimg.com/images/g/gOMAAeSwDSxpd6l2/s-l500.webp",
+          "country": "United States",
+          "grade": "PSA 10",
+          "scope": "International"
+        }
+      ],
+      "stats": {
+        "psa10": {
+          "count": 49,
+          "min": 42.86,
+          "max": 391.92,
+          "median": 105.53,
+          "mean": 107.11
+        },
+        "psa10_uk": {
+          "count": 7,
+          "min": 74.4,
+          "max": 391.92,
+          "median": 103.92,
+          "mean": 138.04
+        },
+        "ace10": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null,
+          "mean": null
+        },
+        "ace10_uk": {
+          "count": 0,
+          "min": null,
+          "max": null,
+          "median": null,
+          "mean": null
+        },
+        "combined": {
+          "count": 49,
+          "min": 42.86,
+          "max": 391.92,
+          "median": 105.53,
+          "mean": 107.11
+        }
+      }
+    }
+  ]
+}

@@ -28,10 +28,14 @@ Then it filters results to only listings whose title:
 - contains `PSA 10` / `PSA10`, or `ACE 10` / `ACE10`
 - does **not** contain a wrong grade (`PSA 9`, `PSA 8`, `CGC x`, `BGS x`, `SGC x`, `ACE 9`, etc.)
 - contains the correct card number
+- contains the card's name keyword (e.g. `raboot`) — keeps unrelated cards
+  that happen to share the number out of the comp set
 - excludes known wrong-number variants (Lana's Aid 207, Gengar ex 193)
 
-If a card has fewer than 3 UK comps, it re-runs the search without the
-`LH_PrefLoc=1` (UK location) filter and tags those rows as `International`.
+Each result is tagged `UK` or `International`. On eBay UK, UK-based listings
+omit the "from X" attribute row so an absent country is treated as UK; non-UK
+shippers are explicitly tagged. If a search returns fewer than 3 UK comps
+the scraper retries without `LH_PrefLoc=1` and merges the extra results.
 
 ## Run
 
@@ -43,18 +47,32 @@ npm run scrape
 
 Outputs in the `scraper/` directory:
 
-- `uk_psa10_comps.json` — full structured data (per-listing + per-grade stats)
+- `uk_psa10_comps.json` — full structured data (per-listing + per-grade,
+  per-scope stats)
 - `uk_psa10_comps.md` — markdown comp tables + lot summary
 
-The console prints, per card: comps found and median price for both PSA 10 and
-ACE 10, plus the sum of medians (estimated lot value) for each grade.
+The console prints, per card: counts and median price for both grades, both
+UK-only and all-comps, plus the sum-of-medians (estimated lot value) for each
+grade × scope combination.
 
-## Notes
+## Implementation notes
 
-- 3-5 second random delay between page loads.
+- A **fresh page is opened per request** because eBay's search pages keep
+  firing analytics/ad requests forever, which crashes the renderer if a
+  single page is reused too many times.
+- **Resource blocking**: images, fonts, stylesheets and ad/analytics URLs
+  are aborted to keep the renderer light.
+- 3-5s random delay between page loads.
 - Realistic desktop Chrome user agent + en-GB locale.
-- Headless Chromium; no logins or cookies required.
-- "No results" is handled gracefully — affected cards print "No UK sold comps
-  found" instead of erroring.
-- eBay's HTML changes occasionally; if selectors stop matching, update the
-  selector list in `scrapeSearchPage()` inside `uk_psa10_comps.js`.
+- `ignoreHTTPSErrors: true` is set on the browser context — needed for some
+  sandboxed environments that intercept TLS; a no-op on a normal network.
+- "No results" is handled gracefully — affected cards print `0 comps` and
+  the markdown shows "No UK sold comps found" instead of erroring.
+- eBay UK's listing-card layout is `li.s-card` with children
+  `.s-card__title`, `.s-card__price`, `.s-card__caption` (sold date), and a
+  set of `.s-card__attribute-row` rows from which we extract the country and
+  seller. The legacy `li.s-item` selectors are retained as a fallback in
+  case eBay rolls back.
+
+If eBay redesigns again and selectors stop matching, update the selector
+list inside `scrapeSearchPage()` in `uk_psa10_comps.js`.

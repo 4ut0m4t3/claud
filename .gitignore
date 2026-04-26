@@ -9,5 +9,4 @@ server/data/
 server/.env
 *.env
 .DS_Store
-scraper/uk_psa10_comps.json
-scraper/uk_psa10_comps.md
+scraper/package-lock.json
