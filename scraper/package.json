@@ -1,0 +1,14 @@
+{
+  "name": "uk-psa10-pokemon-comps-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrape eBay UK sold listings for PSA 10 / ACE 10 Pokemon card comps",
+  "type": "module",
+  "scripts": {
+    "scrape": "node uk_psa10_comps.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}

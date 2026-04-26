@@ -1,6 +1,7 @@
 node_modules/
 server/node_modules/
 client/node_modules/
+scraper/node_modules/
 server/dist/
 client/dist/
 server/uploads/
@@ -8,3 +9,5 @@ server/data/
 server/.env
 *.env
 .DS_Store
+scraper/uk_psa10_comps.json
+scraper/uk_psa10_comps.md
